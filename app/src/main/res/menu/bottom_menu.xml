@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/record_show"
+        android:enabled="true"
+        android:icon="@drawable/ic_record"
+        android:title="Record" />
+    <item
+        android:id="@+id/qr_generator"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_qr_code_24"
+        android:title="QR" />
+    <item
+        android:id="@+id/expiring_package"
+        android:enabled="true"
+        android:icon="@drawable/ic_package"
+        android:title="Expiring"
+         />
+
+
+</menu>

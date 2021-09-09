@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/add_member"
+            android:icon="@drawable/ic_profile"
+            android:title="Add Member"
+            />
+        <item android:id="@+id/create_qr"
+            android:icon="@drawable/ic_baseline_qr_code_24"
+            android:title="Create QR"
+            />
+        <item android:id="@+id/show_profile"
+            android:icon="@drawable/ic_record"
+            android:title="Get Profile"
+            />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:title="About"
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                />
+            <item android:title="Contact Developer"
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_developer_contact"
+                />
+        </menu>
+    </item>
+</menu>

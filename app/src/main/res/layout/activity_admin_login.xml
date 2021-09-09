@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#a9e5ff"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        app:srcCompat="@drawable/max_fitness_icn" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/imageView"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adminaccess.AdminLogin"
+    android:id="@+id/layout">
+
+    <EditText
+        android:id="@+id/admin_email"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:hint="@string/enter_email"
+        android:drawableLeft="@drawable/ic_email"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_text_border"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColorHighlight="@color/royal_blue"
+        android:textColorLink="@color/royal_blue"
+         />
+
+    <EditText
+        android:id="@+id/admin_password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_info"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHighlight="@color/royal_blue"
+        android:textColorLink="@color/royal_blue"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/admin_checkbox_loginpass"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/show_password"
+            />
+        <TextView
+            android:id="@+id/admin_reset_link"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="@color/royal_blue"
+            android:textSize="18sp"
+             />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/admin_login_btn"
+        android:layout_width="242dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn_radius"
+        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admin_password"
+        app:layout_constraintVertical_bias="0.543" />
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

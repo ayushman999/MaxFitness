@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546776065927",
+    "project_id": "max-fitness-2ddfc",
+    "storage_bucket": "max-fitness-2ddfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546776065927:android:466f9153f322455d0e1522",
+        "android_client_info": {
+          "package_name": "com.ayushman999.maxfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546776065927-0bfa3f30ne0v0tv4h1t4auatnbvbke8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBEIyYTC7vnDpYf0Zqt8N524J5itPVSyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546776065927-0bfa3f30ne0v0tv4h1t4auatnbvbke8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

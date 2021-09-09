@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#a9e5ff"
+    android:layout_height="match_parent"
+    tools:context=".activity.User_SignIn">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        app:srcCompat="@drawable/max_fitness_icn" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_card"
+        android:layout_below="@id/imageView"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="15dp"
+        >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <EditText
+        android:id="@+id/create_name"
+        android:layout_width="350dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_profile"
+        android:drawablePadding="5dp"
+        android:background="@drawable/edit_text_border"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_name" />
+
+    <EditText
+        android:id="@+id/user_unique_id"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_unique"
+        android:drawablePadding="5dp"
+        android:background="@drawable/edit_text_border"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/create_name"
+        android:hint="@string/enter_id" />
+
+
+    <EditText
+        android:id="@+id/create_email"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/user_unique_id"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/create_password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/create_email"
+        android:hint="@string/user_password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_info"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/create_phone_num"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_below="@id/create_password"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/user_phone_num"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_text_border"
+        android:inputType="phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="5dp"/>
+
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="249dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/sign_up_checkbox"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_radius"
+        android:text="@string/create_account"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <CheckBox
+        android:id="@+id/sign_up_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/create_phone_num"
+        android:text="@string/show_password" />
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

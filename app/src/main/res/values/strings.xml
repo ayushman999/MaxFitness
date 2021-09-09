@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Max Fitness</string>
+    <string name="show_password">Show password</string>
+    <string name="enter_id">Enter your unique ID</string>
+    <string name="enter_name">Enter your full name</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="user_password">Create your max fitness password</string>
+    <string name="user_phone_num">Enter your phone number</string>
+    <string name="create_account">Create Account</string>
+    <string name="forgot_password">Fogot password?</string>
+    <string name="enter_qr">Create QR</string>
+    <string name="update_package">Expiring Packages</string>
+    <string name="create_package">Create Package</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_bar_open">NavigationBar open</string>
+    <string name="navigation_bar_close">NavigationBar close</string>
+    <string name="enter_password">Enter your password</string>
+</resources>
